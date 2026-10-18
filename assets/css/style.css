@@ -474,7 +474,7 @@ body.menu-open .nav__burger-lines span:last-child { transform: translateY(-5.5px
 .facts { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; margin-top: 64px; background: rgba(11, 11, 12, .15); border: 1px solid rgba(11, 11, 12, .15); }
 @media (min-width: 1024px) { .facts { grid-template-columns: repeat(4, 1fr); } }
 .facts > div { background: var(--paper); padding: 20px; }
-.facts b { display: block; font-family: var(--f-display); font-size: clamp(2.2rem, 3.6vw, 3rem); letter-spacing: -.04em; line-height: 1.1; }
+.facts b { display: block; color: var(--accent); font-family: var(--f-display); font-size: clamp(2.2rem, 3.6vw, 3rem); letter-spacing: -.04em; line-height: 1.1; }
 .facts dd span { display: block; margin-top: 8px; font-size: 14px; color: rgba(11, 11, 12, .6); }
 
 /* Parcours */
